@@ -14,7 +14,7 @@ namespace HelloWorld
             Console.Write("Please enter your name: "); //Added dialog
             string str = Console.ReadLine();
             Console.WriteLine("Hi, " + str);
-            Console.WriteLine("Hit Enter to end");
+            Console.WriteLine("Hit any key to end");
             Console.ReadLine();
         }
     }
